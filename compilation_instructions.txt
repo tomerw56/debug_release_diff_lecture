@@ -1,0 +1,10 @@
+from vs command line
+
+for release
+cl /O2 /EHsc /Fa  <cpp>
+for debug
+cl /Od /EHsc /Fa  <cpp>
+
+
+for release with vectorization
+cl /O2 /EHsc /Fa /arch:AVX <cpp>
