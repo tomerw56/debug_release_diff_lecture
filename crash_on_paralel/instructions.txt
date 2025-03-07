@@ -1,0 +1,6 @@
+used https://learn.microsoft.com/en-us/sysinternals/downloads/procdump
+..\proc_dump\procdump.exe procdump -e -x . demo_crash.exe
+
+this executes and causes the crash -
+compiled via cl 
+cl /Zi demo_crash.cpp
